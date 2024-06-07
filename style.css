@@ -1,0 +1,17 @@
+@importurl("style");
+*{ /*Seletor Universal para resetar as bordas da página*/
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --cor-de-fundo:rgb(185, 218, 245);
+    --cor-de-letra:rgb(0, 0, 0);
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+h1{
+    background-color: rgb(72, 163, 236);
+}
